@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #1b002d;
-  --text-dark: #1b002d;
-  --text-light: #412d46;
+  --primary-color: #00028b;
+  --text-dark: #000850;
+  --text-light: #00012d;
   --white: #ffffff;
   --max-width: 1200px;
   --header-font: "Lora", serif;
@@ -267,7 +267,7 @@ nav {
   transform: translateX(-50%);
   width: 12px; /* Tamaño del punto rojo */
   height: 12px; /* Tamaño del punto rojo */
-  background-color: red; /* Color rojo */
+  background-color: rgb(255, 10, 10); /* Color rojo */
   border-radius: 50%; /* Hace que el punto sea redondo */
   /* Eliminamos la animación de pulsar, ya no se moverá */
 }
@@ -335,7 +335,7 @@ nav {
   margin-bottom: 0.5rem;
   padding: 5px 10px;
   font-size: 1.25rem;
-  background-color: #dcc4ec;
+  background-color: #94c2ff;
   border-radius: 100%;
 }
 
