@@ -281,7 +281,7 @@ nav {
   transform: translateX(-50%);
   width: 20px; /* Tamaño inicial de la onda */
   height: 20px; /* Tamaño inicial de la onda */
-  background-color: rgba(255, 0, 0, 0.3); /* Rojo translúcido */
+  background-color: rgba(255, 0, 0, 0.555); /* Rojo translúcido */
   border-radius: 50%;
   opacity: 0; /* Comienza invisible */
   animation: ondas 1s infinite ease-out; /* Animación de ondas */
@@ -674,7 +674,7 @@ nav {
     position: fixed;
     width: 100%;
     padding: 1rem;
-    background-color: #2b0b38a8;
+    background-color: #ffffff;
     z-index: 99;
   }
 
@@ -688,15 +688,21 @@ nav {
     transform: scaleY(0);
     transform-origin: top;
     transition: 0.5s;
-    background-color: #2b0b3888;
+    background-color: #ffffff;
   }
 
+  .nav__menu__btn {
+    display: none;
+    font-size: 1.5rem;
+    color: #000261;
+  }
   .nav__links .link a {
     opacity: 0;
   }
 
   .nav__links.open .link a {
     opacity: 1;
+    color: #000261;
   }
 
   .nav__links.open {
@@ -725,5 +731,13 @@ nav {
 
   .footer__bar {
     flex-direction: column;
+  }
+  .nav__logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: var(--header-font);
+    color: #000261;
+    display: flex;
+    align-items: center;
   }
 }
